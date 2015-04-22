@@ -20,4 +20,5 @@ class FileIO():
             # 'path' must be a filename
             if self._fname_match(path, ext, ignore_ext_case):
                 l.append(path)
+        l.sort()
         return l
